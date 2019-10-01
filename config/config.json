@@ -1,11 +1,11 @@
 {
   "development": {
     "username": "root",
-    "password": "Frogsand1!",
+    "password": "",
     "database": "bamazon_db",
     "host": "localhost",
     "dialect": "mysql"
-  }, 
+  },
   "test": {
     "username": "root",
     "password": null,
@@ -14,10 +14,6 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "use_env_variable": "JAWSDB_URL"
   }
 }
